@@ -1,0 +1,43 @@
+Package: remote-uci
+Version: 1.0.0-alpha.3
+Architecture: amd64
+Maintainer: Niklas Fiekas <niklas@lichess.org>
+Pre-Depends: init-system-helpers, coreutils
+Depends: stockfish
+Priority: optional
+Section: games
+Filename: pool/main/r/remote-uci/remote-uci_1.0.0-alpha.3_amd64.deb
+Size: 1901848
+SHA256: 4e7ea1b6c1ec4d2e7b25c7a5798de3f3868695a76a36840fd13b24bdd636ac9e
+SHA1: 3f6c173324e2edb6d55ca474c5d7d3c52a42319d
+MD5sum: 487f2d27c179375e02f74fded13dd611
+Description: External engine for Lichess
+ Allows using UCI engines running outside of the browser for analysis on
+ lichess.org.
+
+Package: stockfish
+Version: 15
+Architecture: amd64
+Maintainer: Niklas Fiekas <niklas@lichess.org>
+Priority: optional
+Section: games
+Filename: pool/main/s/stockfish/stockfish_15_amd64.deb
+Size: 22820620
+SHA256: 77115bd4feb4d73a1e150e546737cf676770448188bf309684481a5decb11579
+SHA1: eef1331d70e3e05d1e13cb2cfa2455a9ed9d0f05
+MD5sum: 21541e9fbc4cc6d87ce6b80e4e9ce65a
+Description: Strong chess engine
+ Stockfish is a powerful UCI chess engine derived from Glaurung 2.1. Stockfish
+ is not a complete chess program and requires a UCI-compatible graphical user
+ interface (GUI) in order to be used comfortably. Read the documentation for
+ your GUI of choice for information about how to use Stockfish with it.
+ .
+ The Stockfish engine features two evaluation functions for chess. The
+ efficiently updatable neural network (NNUE) based evaluation is the default
+ and by far the strongest. The classical evaluation based on handcrafted terms
+ remains available.
+ .
+ The strongest NNUE network is included in this package. The NNUE evaluation
+ benefits from the vector intrinsics. This package contains various precompiled
+ binaries and selects the best one for your CPU.
+

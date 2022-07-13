@@ -1,0 +1,18 @@
+Origin: lichess-org.github.io/external-engine/debian
+Label: lichess-org.github.io/external-engine/debian
+Codename: bullseye
+Date: Wed, 13 Jul 2022 15:24:19 UTC
+Architectures: amd64
+Components: main
+MD5Sum:
+ d3a8ae9bfb66316f5ce3367c6ab949e0 1741 main/binary-amd64/Packages
+ ba0fbed340293892defb0d2b1e2e9c0c 955 main/binary-amd64/Packages.gz
+ a2a3b10307c629bcd212c38100264565 141 main/binary-amd64/Release
+SHA1:
+ 4af3c94bb24d46fea8ddece00b57fa18442b0c3c 1741 main/binary-amd64/Packages
+ 6ca6b5f8cf43648051f528068dc2399e26c30f2d 955 main/binary-amd64/Packages.gz
+ c10693a25525cc913369392404cdad0bb3aed16b 141 main/binary-amd64/Release
+SHA256:
+ 36212147a224f9b082feed8cfbb2e3d8066ac3c81034e97e256cf3ae78453a80 1741 main/binary-amd64/Packages
+ d0c36dd7d04c84df432fd5dda1f9d3b0a002b47b3f3d79cba6022c11cf22b58c 955 main/binary-amd64/Packages.gz
+ 732c09ea2908bae0a276acb2f67fb8e10b4d3b248e824bcb81da7f8d22ae458e 141 main/binary-amd64/Release
